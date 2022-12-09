@@ -1,5 +1,5 @@
 name: Bug report
-description: Report a bug in GDRE Tools **(if this is related to certain resource types not being supported, please use the Feature Request template)**
+description: Report a bug in GDRE Tools (if this is related to conversion of certain resource types not being supported, please use the Feature Request template)
 labels: bug
 body:
 
@@ -47,7 +47,7 @@ body:
     description: |
       **REQUIRED IF APPLICABLE.** If not, write "N/A".
       In the directory where you recovered the project, there will be a file labelled "gdre_export.log".
-      Drag and drop the file to upload it. **Do not select another field until the project is done uploading.**
+      Drag and drop the file to upload it. **Do not select another field until the log is done uploading.**
   validations:
     required: true
     
@@ -57,6 +57,6 @@ body:
     description: |
       If the issue is not trivially reproducable, it is recommended that you provide a link to the game that you encountered this issue with here.
       If for whatever reason you would prefer to not post it publicly, you may send it to us privately; in this case, post an alternate means of contacting yourself here (e.g. Discord tag).
-      You can also attempt to recreate the issue by creating a minimal reproduction project in the Godot editor and then exporting it. If that reproduces the issue, attach it here.
+      You can also attempt to recreate the issue by creating a minimal reproduction project in the Godot editor and then exporting it. If that reproduces the issue, attach the zipped export here. **Do not select another field until the project is done uploading.**
   validations:
     required: false

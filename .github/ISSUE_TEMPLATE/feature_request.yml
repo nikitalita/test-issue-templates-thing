@@ -2,11 +2,11 @@
 description: Propose a possible solution to solve a GDRE Tools limitation
 labels: enhancement
 body:
-
 - type: markdown
   attributes:
     value: |
       - Write a descriptive title above.
+      - Verify that you are using the [latest release.](https://github.com/bruvzg/gdsdecomp/releases/latest).
       - Search [open](https://github.com/bruvzg/gdsdecomp/issues) and [closed](https://github.com/bruvzg/gdsdecomp/issues?q=is%3Aissue+is%3Aclosed) issues to ensure it has not already been reported.
 
 - type: input
