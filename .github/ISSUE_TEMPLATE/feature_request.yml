@@ -1,4 +1,4 @@
-﻿name: Feature implementation proposal
+name: Feature implementation proposal
 description: Propose a possible solution to solve a GDRE Tools limitation
 labels: enhancement
 body:
@@ -13,9 +13,10 @@ body:
   attributes:
     label: Resource Type
     description: |
-      If this is a request to add conversion for a resource type, describe it here. (e.g. ADPCM Samples, Atlas Textures, etc.)
-      **PLEASE NOTE**: We are concentrating on only providing support for resources in the base Godot installation. We will likely not add support for custom resource types that are provided by custom modules. An exception may be made if they are very popular. If you think your custom resource qualifies, make your case in the description field below this one.
-      *In either case, Pull Requests that add this are always welcome.*
+      If this is a request to add conversion for a resource type, describe it here.
+      **PLEASE NOTE**: We are concentrating on only providing support for resources in the base Godot installation. We will likely not add support for custom resource types that are provided by custom modules. An exception may be made if they are very popular. If you think your custom resource qualifies, make your case in the description field below this one, making sure to link to the custom module that provides it.
+      *In either case, Pull Requests that add conversion for custom resources are always welcome.*
+    placeholder: Example - ADPCM Samples, Atlas Textures, etc.
   validations:
     required: false
 
