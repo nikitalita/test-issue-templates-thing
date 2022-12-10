@@ -11,8 +11,8 @@ body:
       - Search [open](https://github.com/bruvzg/gdsdecomp/issues) and [closed](https://github.com/bruvzg/gdsdecomp/issues?q=is%3Aissue+is%3Aclosed) issues to ensure it has not already been reported.
 
 - type: input
+  id: sys_info
   attributes:
-    id: sys_info
     label: System information
     description: |
       Specify the OS version, and when relevant hardware information.
