@@ -9,6 +9,7 @@ body:
       - Write a descriptive issue title above.
       - Verify that you are using the [latest release.](https://github.com/bruvzg/gdsdecomp/releases/latest).
       - Search [open](https://github.com/bruvzg/gdsdecomp/issues) and [closed](https://github.com/bruvzg/gdsdecomp/issues?q=is%3Aissue+is%3Aclosed) issues to ensure it has not already been reported.
+      - **!!NOTE: If you are requesting implementation for converting a currently unsupported resource,** [use the feature request template](https://github.com/bruvzg/gdsdecomp/issues/new?labels=enhancement&template=feature_request.yml)
 
 - type: input
   id: sys_info
@@ -50,10 +51,6 @@ body:
       **REQUIRED IF APPLICABLE.** If not, write "N/A".
       In the directory where you recovered the project, there will be a file labelled "gdre_export.log".
       Drag and drop the file to upload it. **Do not select another field until the log is done uploading.**
-    value: |
-      <!-- NOTE: If you are requesting implementation for converting a currently unsupported resource, use this template instead: 
-      https://github.com/bruvzg/gdsdecomp/issues/new?labels=enhancement&template=feature_request.yml
-      -->
   validations:
     required: true
     
