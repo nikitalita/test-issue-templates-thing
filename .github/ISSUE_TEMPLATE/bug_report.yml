@@ -12,6 +12,7 @@ body:
 
 - type: input
   attributes:
+    id: sys_info
     label: System information
     description: |
       Specify the OS version, and when relevant hardware information.
