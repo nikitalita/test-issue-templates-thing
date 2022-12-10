@@ -18,6 +18,7 @@ body:
       Specify the OS version, and when relevant hardware information.
       For graphics-related issues, specify the GPU model.
     placeholder: Windows 10, Intel HD Graphics 620
+    value: test
   validations:
     required: true
 
